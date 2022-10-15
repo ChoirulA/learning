@@ -81,6 +81,16 @@ public class LearningService {
         }
         return address;
     }
+    
+    public String getPostalCode(String city){
+        String postalCode = null;
+        if("Bantul".equal(city)){
+            postalCode = "62211";
+        }else{
+            postalCode = "not found";
+        }
+        return postalCode;
+    }
 
     //Tugas 3
 
